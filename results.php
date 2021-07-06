@@ -1,6 +1,6 @@
 <?php
 // API configuration
-define('LOQUIZ_API_URL', 'https://loquiz-api.herokuapp.com/api/v3');
+define('LOQUIZ_API_URL', 'https://api.loquiz.com/v3');
 define('LOQUIZ_AUTHORIZATION_HEADER', 'ENTER_YOUR_API_KEY_HERE');
 ​
 if (substr(LOQUIZ_AUTHORIZATION_HEADER, 0, 9) != 'ApiKey-v1') {
